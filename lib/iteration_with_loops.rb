@@ -8,6 +8,9 @@ def find_even_values(src)
 
  if src[count] % 2 == 0  
    puts src[count]       
- end
  count += 1
+end
+
+src
+
 end
