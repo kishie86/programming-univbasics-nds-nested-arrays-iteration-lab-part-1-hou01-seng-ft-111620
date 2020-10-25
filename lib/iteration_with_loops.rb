@@ -9,6 +9,12 @@ def find_even_values(src)
   puts src[count] 
   count += 1
 end
+
+ if src[count] % 2 == 0  # conditional using modulo operator
+   puts src[count]       # puts out even number
+ end
+ src += 1
+
  
 src
 
