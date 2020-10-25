@@ -14,10 +14,10 @@ while row_index < src.count do
     if src[row_index]
       [element_index].even?
     p src[row_index][element_index]
+  end
     element_index += 1
   end
   row_index += 1
   #binding.pry
-end
 end
 end
