@@ -5,16 +5,12 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   count = 0 
-  while count < src.length do
-  puts src[count] 
-  count += 1
-end
 
- if src[count] % 2 == 0  # conditional using modulo operator
-   puts src[count]       # puts out even number
+ if src[count] % 2 == 0  
+   puts src[count]       
  end
- src += 1
-
+ count += 1
+end
  
 src
 
